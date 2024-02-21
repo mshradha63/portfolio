@@ -1,0 +1,611 @@
+
+          *{ 
+              margin: 0;
+              padding: 0;
+              box-sizing: border-box;
+            
+
+          }
+          body{
+              background-color: rgb(0,0,33);
+              color: white;
+              font-family: 'Poppins',sans-serif;
+              
+              
+              
+          }
+          nav{
+              display: flex;
+              justify-content: space-around;
+              align-items: center;
+              height: 70px;
+              background-color: rgb(12, 12, 77);
+            position: absolute;
+             width: 100%;
+             margin-top: -120px;
+             
+          
+            
+          }
+          nav ul{
+              display: flex;
+              justify-content: center;
+            
+
+          }
+          nav ul li{
+              list-style: none;
+              margin: 0 23px;
+          }
+          nav ul li a{
+              color: #fff;
+              text-decoration: none;
+              position: relative;
+              font-size: 1rem;
+          }
+          nav ul li a::after{
+             content: '';
+             width:0;
+             height: 3px;
+             font-size: 1.04rem;
+              position: absolute;
+              left:0;
+              bottom: -6px;
+              background-color: #ff004f;
+              transition: 0.5s;
+
+          }
+          nav ul li a:hover::after{
+            width: 100%;
+          }
+
+      .left{
+          font-size: 2rem;
+          cursor: pointer;
+        
+      
+      }
+      .skillItem{
+        font-size: .95rem;
+      }
+      
+      .firstsection{
+          display: flex;
+          justify-content: space-around;
+          margin: 120px 0;
+          align-items: center;
+          overflow: hidden;
+          
+      }
+      .firstsection div{
+          width: 30%;
+          
+      }
+      .leftsection{
+      
+          width:40px;
+          font-size: 3rem;
+          margin-top: -10px;
+          margin-left: 130px;
+      }
+      .leftsection div{
+        white-space: nowrap;
+      }
+      .rightsection img{
+       margin-top: -80px;
+       width: 650px;
+       margin-left: -100px; 
+       height: 600px;           
+
+      }
+      .purple{
+          color:rgb(188, 117, 206);
+      }
+      #element{
+          color:rgb(188, 117, 206); 
+      }
+      main hr{
+          border: 0;
+          background-color: #9c97f1;
+          height: 1.2px;
+          margin-top: 50px;
+          margin-left: 60px;
+          margin-right: 60px;
+      }
+      .intro h1{
+        text-align: center;
+        font-size: 2.5rem;
+        
+      }
+      .intro p{
+        text-align:justify;
+        line-height: 30px;
+        font-size: 1rem;
+        color: rgba(255, 255, 255, 0.87);
+        margin-left: 550px;
+
+      }
+      .intro h2{
+        margin-left: 80px;
+        font-size: 2rem;
+      }
+      .skillcontainer{
+        margin-left: 80px;
+        margin-top: 60px;
+      }
+      .skill{
+        margin-left: 50px;
+      }
+      .personal{
+        margin-left: 600px;
+        margin-top: -350px;
+        margin-bottom: 100px;
+      
+        
+      }
+      .personal p {
+        margin-top: -30px;
+        margin-left: 150px;
+    
+      }
+      .personal h4 {
+        font-weight: 900;
+        font-size: 1rem;
+        margin-left: 20px;
+        
+      }
+      hr {
+        border: 0;
+          background-color: #9c97f1;
+          height: 1.2px;
+           margin-right: 60px;
+           margin-top: 150px;
+           margin-bottom: 60px;
+      
+
+      }
+      .projects{
+        margin-top: 30px;
+        margin-bottom: 150px;
+    
+      }
+      .projects h1{
+        margin-top: 10px;
+        margin-left: 60px;
+        margin-bottom: 60px;
+        font-size: 2rem;
+      }
+      .projects a{
+        margin-left:100px;
+        text-decoration: none;
+        color: white;
+
+      }
+      .projects a:hover{
+        color: red;
+      }
+      .resume{
+        margin-left: 540px;
+        margin-bottom: 100px;
+      }
+      .resume button{
+        padding: 15px;
+        border: 1px solid;
+        background-color: red;
+        border-radius: 10px;
+        
+      
+      }
+      .resume button a{
+        text-decoration: none;
+        color: white;
+        font-size: 1rem;
+        
+      }
+      .email{
+       margin-left: 100px;        
+        
+        
+
+      }
+      .contact p{
+        margin-left:500px;
+        margin-top: 15px;
+        font-size: 1rem;
+      }
+      .contact h1{
+        margin-left: 10px;
+        display: center;
+        text-align: center;
+        font-size: 2rem;
+      }
+      .email button{
+        border: 1px solid red;
+        border-radius: 50%;
+        padding: 10px;
+        margin-bottom: 20px;
+        margin-top: 80px;
+    
+      }
+      .email h5{
+        margin-bottom: 20px;
+        margin-left: -15px;
+      }
+    
+       .email a{
+        text-decoration: none;
+        color: white;
+        margin-left: -40px;
+       
+      }
+      .number{
+        margin-left: 120px;
+        margin-top: 80px;
+      }
+      .number button{
+        border: 1px solid red;
+        border-radius: 50%;
+        padding: 10px;
+        margin-bottom: 20px;
+        margin-left: 45px;
+      }
+      .address{
+        margin-left: 170px;
+        margin-top: 80px;
+      }
+        
+      .address button{
+        border: 1px solid red;
+        border-radius: 50%;
+        padding: 10px;
+        margin-bottom: 20px;
+        margin-left:25px;
+      }
+      
+      .details{
+        display: flex;
+        margin-left: 50px;
+    
+      }
+      .number h5{
+        margin-bottom: 20px;
+        margin-left: -15px;
+        white-space: nowrap;
+      }
+    
+       .number a{
+        text-decoration: none;
+        color: white;
+        margin-left: -40px;
+       } 
+      .number p{
+        margin-left:10px;
+        margin-bottom: -5px;
+    
+      }
+      .address h5{
+        margin-bottom: 15px;
+        margin-left: -1px;
+      }
+    
+       .address a{
+        text-decoration: none;
+        color: white;
+        margin-left: -40px;
+       } 
+      .address p{
+        margin-left:-10px;
+        margin-top: 10px;
+      }
+      .download button{
+        border: 1px solid red;
+        border-radius: 50%;
+        padding: 10px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+      }
+      .download h5{
+        margin-bottom: 20px;
+        margin-left: -15px;
+      }
+    
+       .download a{
+        text-decoration: none;
+        color: white;
+        margin-left: -40px;
+       } 
+      .download p{
+        margin-left:-10px;
+        margin-top:-10px;
+      
+      }
+      .download{
+        margin-left: 190px;
+        margin-top: 80px;
+      }
+      .cv{
+        margin-top: 560px;
+        margin-left: -600px;
+        
+      }
+      .cv button{
+        padding: 20px;
+        background-color: red;
+        border-radius: 10px;
+      }
+      .cv button a{
+        text-decoration: none;
+        font-size: 1rem;
+        color: white;
+      }
+      
+
+      .skill{
+    width:30%;
+    height: 5px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    margin-left: 5px;
+   }     
+   .skill1{
+    width:25%;
+    height: 5px;
+    background-color: yellow;
+    border-radius: 5px;
+    margin-left: 5px;
+   }     
+   .skill2{
+    width:20%;
+    height: 5px;
+    background-color: red;
+    border-radius: 5px;
+    margin-left: 5px;
+   }     
+   .skill3{
+    width:10%;
+    height: 5px;
+    background-color: blue;
+    border-radius: 5px;
+    margin-left: 5px;
+   }     
+   .skill4{
+    width:10%;
+    height: 5px;
+    background-color:green;
+    border-radius: 5px;
+    margin-left: 5px;
+   }  
+   .skill5 {
+    width:10%;
+    height: 5px;
+    background-color: brown;
+    border-radius: 5px;
+    margin-left: 5px;
+
+   } 
+   .personal .panel{
+    margin-left: 150px;
+   }  
+   .personal .panel1{
+    margin-left: 150px;
+    
+   }
+   .intro .image{
+    border-radius: 50%;
+    height:90px;
+    width:90px;
+    border:2px solid white;
+    margin-left: 80px;
+    margin-top: -200px;
+
+
+   }
+   .leftsection span{
+    white-space: nowrap;
+   }
+   
+   nav .fa-solid{
+    display: none;
+   }
+        @media only screen and (max-width: 600px){
+          
+           nav .fa-solid{
+            position: absolute;
+            top: 25px;
+        
+            cursor: pointer;
+            display: block;
+            font-size: 25px;
+
+          
+          }
+        
+          
+          main hr{
+          border: 0;
+          background-color: #9c97f1;
+          height: 1.2px;
+          margin-top: 50px;
+          margin-left: 20px;
+          margin-right: 20px;
+          }
+          nav ul{
+            background-color: #ff004f;
+            position: fixed;
+            top: 0;
+          right: 350px;
+            width: 150px;
+            height: 100vh;
+            padding-top: 50px;
+            display: block;
+        
+            transition: right 0.5s;
+          }
+          nav ul li{
+      
+            margin: 25px;
+          }
+          nav ul li a{
+          
+            font-size: 1rem;
+          }
+          
+        .rightsection img{
+
+        height: 100px;
+        width: 100px;
+        margin-left:-55px;
+        margin-top: -650px;
+
+      
+    }
+    
+    .leftsection{
+      
+      margin-left: 20px;
+      font-size: .80rem;
+    }
+
+     .cv{
+  margin-left:-110px ;
+  white-space: nowrap;
+  
+}
+.cv button a{
+  font-size: .70rem;
+}
+.intro p{
+  
+  font-size: .90rem;
+  color: rgba(255, 255, 255, 0.849);
+margin-left: 50px;
+margin-top: -20px;
+
+}
+.intro h1{
+  margin-left: 30px;
+  white-space: nowrap;
+  font-size: 1.5rem;
+
+
+}
+.personal {
+  font-weight: 500;
+  margin-left: -250px;
+  margin-top: -1100px;
+  
+  
+}
+.personal h4{
+  font-size: 1rem;
+  
+}
+.personal p{
+  margin-left: 340px;
+  text-align: center;
+}
+.intro h2{
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+.personal .panel{
+  margin-left: 330px;
+  margin-top: -20px;
+}
+.personal .panel1 {
+  margin-left: 330px;
+  margin-top: -20px;
+}
+.skill{
+  margin-left: 10px;
+}
+.personal p{
+
+  margin-top: -20px;
+  white-space: nowrap;
+
+}
+   .skillcontainer{
+    
+    
+    margin-left: 70px;
+   }     
+      .intro h2{
+        margin-left: 70px;
+        white-space: nowrap;
+        margin-top: 200px;
+
+      }
+      .left{
+        font-size: 1.5rem;
+        margin-left: -30px;
+      }
+      #open{
+        margin-left: 200px;
+      }
+      .intro .image{
+        margin-top: 400px;
+      }
+      .skillItem{
+        font-size: 1rem;
+      }
+      .projects h1{
+        font-size: 1.4rem;
+        margin-left: -10px;
+      }
+      .projects a{
+        margin-left:5px;
+        text-align: justify;
+        font-size: .90rem;
+      }
+      .projects a:hover{
+        color: red;
+      }
+      hr{
+      margin-right: -20px;
+      margin-left:-20px;
+      margin-top: 150px;
+    
+      }
+      .contact p{
+        margin-top: 10px;
+        white-space: nowrap;
+        margin-left: -40px;
+      }
+      .details{
+        margin-left: -40px;
+        display: block;
+      }
+      .number{
+        margin-left: 60px;
+
+      }
+      .number p{
+        margin-left: 30px;
+      }
+      .number h5{
+        margin-left: 20px;
+      }
+      .address{
+        margin-left: 70px;
+
+      }
+      .address h5{
+        margin-left: 20px;
+      }
+      .address p{
+        margin-left:15px ;
+
+      }
+      .download{
+        margin-left: 80px;
+        white-space: nowrap;
+      }
+      .download p{
+        margin-left: 10px;
+      }
+      .email{
+        white-space: nowrap;
+      }
+      
+    }
